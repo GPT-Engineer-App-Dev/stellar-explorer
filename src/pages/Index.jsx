@@ -3,7 +3,7 @@ import { Container, Text, VStack, Box, Heading } from "@chakra-ui/react";
 const Index = () => {
   return (
     <Box
-      bgImage="url('/public/space-background.jpg')"
+      bgGradient="linear(to-r, teal.500, green.500)"
       bgSize="cover"
       bgPosition="center"
       minHeight="100vh"
