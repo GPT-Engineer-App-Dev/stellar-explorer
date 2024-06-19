@@ -11,8 +11,9 @@ const Index = () => {
       bgPosition="center"
       minHeight="100vh"
       color="white"
+      overflowY="auto"
     >
-      <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+      <Container centerContent maxW="container.md" py={10}>
         <VStack spacing={4}>
           <Image src={NasaLogo} alt="NASA Logo" boxSize="100px" />
           <Image src={SpaceXLogo} alt="SpaceX Logo" boxSize="100px" />
